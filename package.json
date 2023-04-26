@@ -1,0 +1,26 @@
+{
+    "name": "gpt-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon ./src/main.js",
+        "start": "node ./src/main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Forestvov/gpt-bot.git"
+    },
+    "keywords": [],
+    "author": "Aleksey Kukva",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Forestvov/gpt-bot/issues"
+    },
+    "homepage": "https://github.com/Forestvov/gpt-bot#readme",
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "nodemon": "^2.0.22"
+    }
+}
